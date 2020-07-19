@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: 75d0b63ed7303b2448427b341f389f47
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - RotateXslider: {instanceID: 0}
+  - UpdateResSlider: {instanceID: 0}
+  - AllowRotXToggle: {instanceID: 0}
+  - SpriterToggle: {instanceID: 0}
+  - FilterToggle: {instanceID: 0}
+  - SelfShadowingToggle: {instanceID: 0}
+  - ViewAnglesDrop: {instanceID: 0}
+  - ColorDepthDrop: {instanceID: 0}
+  - PresetDrop: {instanceID: 0}
+  - FPSslider: {instanceID: 0}
+  - OilPaintingMaterial: {instanceID: 0}
+  - oilRadiusSlider: {instanceID: 0}
+  - oilFilterToggle: {instanceID: 0}
+  - renderTextureAtlas: {instanceID: 0}
+  - SpriteOil: {instanceID: 0}
+  - mesh: {instanceID: 0}
+  - spriteMaterial: {fileID: 2100000, guid: da57b28f95ddc734e94e247fc7303dfc, type: 2}
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 2a3b7448a1bef1d428618c1966fe5d0e, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
