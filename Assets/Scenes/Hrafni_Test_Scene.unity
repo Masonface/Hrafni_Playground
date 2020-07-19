@@ -4434,9 +4434,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f57062ed2a34c7d4193a546a934e5e5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriterEnabled: 0
-  FPS: 8
-  viewAngles: 2
+  spriterEnabled: 1
+  FPS: 6
+  viewAngles: 1
   spriteQuality: 2
   colorDepth: 1
   filter: 0
@@ -5440,8 +5440,8 @@ ReflectionProbe:
   m_BoxSize: {x: 10, y: 10, z: 10}
   m_BoxOffset: {x: 0, y: 0, z: 0}
   m_NearClip: 0.3
-  m_FarClip: 1000
-  m_ShadowDistance: 100
+  m_FarClip: 10
+  m_ShadowDistance: 15
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_CullingMask:
@@ -5452,7 +5452,7 @@ ReflectionProbe:
   m_HDR: 1
   m_BoxProjection: 0
   m_RenderDynamicObjects: 0
-  m_UseOcclusionCulling: 1
+  m_UseOcclusionCulling: 0
   m_Importance: 1
   m_CustomBakedTexture: {fileID: 0}
 --- !u!1 &1683712167
