@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MouseMove : MonoBehaviour
 {
-    public Animator animator;
+    public Animator animator3D;
+    public Animator animatorSW;
     public bool Attacking = false;
     public AudioSource aS;
     public AudioClip attackSound;
@@ -62,12 +63,14 @@ public class MouseMove : MonoBehaviour
         
         Debug.Log("Attack!");
         Attacking = true;
-        animator.SetBool("Attack", true);
+        animator3D.SetBool("Attack", true);
+        animatorSW.SetBool("Attack", true);
         aS.PlayOneShot(attackSound);
 
         yield return new WaitForSeconds(attackTime);
-        
-        animator.SetBool("Attack", false);
+
+        animator3D.SetBool("Attack", false);
+        animatorSW.SetBool("Attack", false);
         Attacking = false;
 
     }
